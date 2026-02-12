@@ -57,34 +57,49 @@ This study addresses the following research questions:
 ## 📁 Repository Structure
 
 ```
-survey-siesta-javamop/
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── data/
-│   ├── raw/
-│   │   └── survey_responses.csv
-│   └── processed/
-│       ├── rq1_processed.csv
-│       ├── rq2_processed.csv
-│       ├── rq3_processed.csv
-│       ├── rq4_processed.csv
-│       └── halstead_metrics.csv
+survey/
+│
+├── resumo_cenarios_1_a_11.csv
+├── respostas_dadostratados.csv
+├── survey_metrics_macros.tex
+│
+├── RQ1/
+│   ├── respostas_rq1intuitiveAgeNew.csv
+│   ├── Section 4 - RQ1 - binominal test.py
+│   ├── Section 4 - RQ1 - Chisquared test.py
+│   ├── imagens/
+│   └── scripts/
+│
+├── RQ2/
+│   ├── respostas_RQ2_FasterNew.csv
+│   ├── Section 4 - extrair_data_RQ2.py
+│   ├── Section 4 - grafic_RQ2_heatmap_01_MSL.py
+│   └── images/
+│
+├── RQ3/
+│   ├── respostas_RQ3_detailAndRigorNew.csv
+│   ├── Section 4 variaveis_RQ3_binominal.py
+│   ├── Section 4 Grafic_RQ3_radar.py
+│   └── radar_languages.png
+│
+├── RQ4/
+│   ├── respostas_RQ4_SintaxeNew.csv
+│   ├── Section 4 - Grafic_RQ4_linguagens.py
+│   ├── Section 4 - metrics_code_RQ4.py
+│   ├── mop11/
+│   ├── code11/
+│   └── ck_metrics/
+│
+├── code/
+│   └── (Java specification examples)
+│
 ├── scripts/
-│   ├── rq1_analysis.py
-│   ├── rq2_analysis.py
-│   ├── rq3_analysis.py
-│   ├── rq4_analysis.py
-│   ├── halstead_analysis.py
-│   └── utils.py
-├── results/
-│   ├── rq1/
-│   ├── rq2/
-│   ├── rq3/
-│   ├── rq4/
-│   └── objective-metrics/
-└── paper-material/
-    ├── scenarios.pdf
-    ├── questionnaire.pdf
-    └── statistical-tests-description.md
+│   └── (Section 3.2 demographic scripts)
+│
+├── backup/
+│   └── (original survey backups)
+│
+└── paper/
+    └── related references
 ```
+
