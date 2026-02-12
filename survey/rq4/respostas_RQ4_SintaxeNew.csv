@@ -1,0 +1,103 @@
+pID,Do you agree in participate?,What is your age group?,Gender:,Professional experience as a software developer :,What is your main area of expertise?,Which programming languages do you regularly use?,Have you ever heard of runtime verification tools or specification languages?,1.4_simpler,2.4_simpler,3.4_simpler,4.4_simpler,5.4_simpler,6.4_simpler,7.4_simpler,8.4_simpler,9.4_simpler,10.4_simpler,11.4_simpler
+P1,#NUM!,25–34,Male,7 - 10 years,"DevOps/Cloud Computing, Back-end development",Java,"I've heard about it, but I've never used it.",MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P2,#NUM!,35–44,Male,Less than 1 year,"Web Development, Mobile Development","Python, JavaScript/TypeScript, Dart",No,MSL,MSL,JavaMOP,JavaMOP,JavaMOP,MSL,JavaMOP,JavaMOP,MSL,MSL,JavaMOP
+P3,#NUM!,45–54,Male,More than 10 years,Web Development,Java,Yes,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,MSL
+P4,#NUM!,35–44,Male,More than 10 years,Web Development,"Java, JavaScript/TypeScript","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P5,#NUM!,45–54,Male,More than 10 years,Web Development,"Java, JavaScript/TypeScript",Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P6,#NUM!,55–64,Female,1 - 3 years,Web Development,"JavaScript/TypeScript, PHP","I've heard about it, but I've never used it.",JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,MSL,JavaMOP,JavaMOP,MSL
+P7,#NUM!,35–44,Female,7 - 10 years,"Web Development, Data Science/Analytics",Java,No,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,MSL,MSL
+P8,#NUM!,35–44,Male,7 - 10 years,"Web Development, DevOps/Cloud Computing","Java, Python",No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P9,#NUM!,25–34,Female,7 - 10 years,Data Science/Analytics,"Java, SQL","I've heard about it, but I've never used it.",MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL
+P10,#NUM!,35–44,Male,More than 10 years,Web Development,JavaScript/TypeScript,No,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL
+P11,#NUM!,35–44,Male,More than 10 years,Web Development,"Java, JavaScript/TypeScript, Kotlin, Go",No,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,JavaMOP,JavaMOP,MSL,MSL
+P12,#NUM!,35–44,Male,More than 10 years,"Web Development, Mobile Development","Java, JavaScript/TypeScript","I've heard about it, but I've never used it.",MSL,JavaMOP,MSL,MSL,JavaMOP,JavaMOP,JavaMOP,MSL,JavaMOP,MSL,MSL
+P13,#NUM!,35–44,Male,More than 10 years,"Web Development, Embedded Systems, DevOps/Cloud Computing","Java, JavaScript/TypeScript","I've heard about it, but I've never used it.",MSL,MSL,JavaMOP,JavaMOP,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL
+P14,#NUM!,25–34,Male,7 - 10 years,Web Development,"Java, JavaScript/TypeScript",No,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL
+P15,#NUM!,18–24,Female,1 - 3 years,Web Development,"Python, C#",Yes,MSL,MSL,JavaMOP,JavaMOP,MSL,MSL,MSL,JavaMOP,JavaMOP,MSL,MSL
+P16,#NUM!,25–34,Male,4 - 6 years,Web Development,Java,No,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL
+P17,#NUM!,35–44,Male,7 - 10 years,"Web Development, Machine Learning/AI",Java,Yes,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,MSL,JavaMOP,MSL
+P18,#NUM!,25–34,Male,7 - 10 years,Data Science/Analytics,"Python, PHP","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL
+P19,#NUM!,45–54,Male,More than 10 years,Web Development,"JavaScript/TypeScript, C#",Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P20,#NUM!,25–34,Male,7 - 10 years,"Web Development, Mobile Development","Java, Kotlin",No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P21,#NUM!,35–44,Male,More than 10 years,"Web Development, Mobile Development, Embedded Systems, DevOps/Cloud Computing","Java, Python, JavaScript/TypeScript, C/C++, C#, PHP",Yes,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P22,#NUM!,35–44,Male,More than 10 years,"Web Development, Mobile Development, Embedded Systems, DevOps/Cloud Computing","Java, Python, JavaScript/TypeScript, C#, Kotlin, Swift, Go","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P23,Yes,35–44,Male,Less than 1 year,"Web Development, Cybersecurity","Python, PHP",Yes,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,MSL,MSL
+P24,Yes,35–44,Female,7 - 10 years,Web Development,Python,No,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP
+P25,Yes,25–34,Prefer not to say,Less than 1 year,Web Development,Ruby,"I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P26,Yes,35–44,Male,More than 10 years,"Web Development, Data Science/Analytics","Python, PHP","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P27,Yes,25–34,Male,7 - 10 years,Embedded Systems,"Java, Go",Yes,MSL,JavaMOP,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P28,Yes,25–34,Male,More than 10 years,Web Development,"Java, Python, JavaScript/TypeScript","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P29,Yes,25–34,Male,7 - 10 years,"DevOps/Cloud Computing, Backend Development","Java, Kotlin, Lua",Yes,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,MSL,MSL
+P30,Yes,35–44,Male,More than 10 years,"Web Development, Integração SOA","Java, C#",No,MSL,JavaMOP,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P31,Yes,35–44,Male,4 - 6 years,Embedded Systems,"Python, C/C++","I've heard about it, but I've never used it.",MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,MSL,MSL
+P32,Yes,35–44,Male,More than 10 years,"Data Science/Analytics, Machine Learning/AI",Python,No,JavaMOP,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P33,Yes,35–44,Male,Less than 1 year,"DevOps/Cloud Computing, Cybersecurity",Python,"I've heard about it, but I've never used it.",MSL,MSL,JavaMOP,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,MSL,JavaMOP
+P34,Yes,35–44,Male,1 - 3 years,Web Development,"Java, Python",Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P35,Yes,35–44,Male,More than 10 years,"Web Development, DevOps/Cloud Computing","Java, JavaScript/TypeScript",Yes,JavaMOP,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P36,Yes,25–34,Male,7 - 10 years,"Web Development, DevOps/Cloud Computing","JavaScript/TypeScript, PHP","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P37,Yes,25–34,Male,7 - 10 years,"Web Development, DevOps/Cloud Computing","Java, Python, JavaScript/TypeScript",No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P38,Yes,55–64,Female,More than 10 years,"Web Development, Sistemas Desktop","Java, JavaScript/TypeScript, Delphi",No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P39,Yes,35–44,Male,More than 10 years,Web Development,Java,No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P40,Yes,45–54,Male,More than 10 years,Web Development,"Java, Python, JavaScript/TypeScript","I've heard about it, but I've never used it.",MSL,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,MSL
+P41,Yes,45–54,Male,More than 10 years,Web Development,Java,"I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P42,Yes,25–34,Male,7 - 10 years,Web Development,"Java, JavaScript/TypeScript",Yes,JavaMOP,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL
+P43,Yes,25–34,Male,Less than 1 year,"Web Development, DevOps/Cloud Computing","Python, C/C++, C#","I've heard about it, but I've never used it.",MSL,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL
+P44,Yes,45–54,Prefer not to say,7 - 10 years,"Web Development, Data Science/Analytics","Java, Python",Yes,JavaMOP,MSL,MSL,JavaMOP,JavaMOP,JavaMOP,MSL,JavaMOP,JavaMOP,JavaMOP,JavaMOP
+P45,Yes,45–54,Female,More than 10 years,Web Development,"Java, JavaScript/TypeScript","I've heard about it, but I've never used it.",JavaMOP,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P46,Yes,35–44,Male,More than 10 years,"Embedded Systems, Data Science/Analytics, Machine Learning/AI","Python, C/C++",Yes,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,JavaMOP
+P47,Yes,35–44,Male,More than 10 years,Web Development,"Java, JavaScript/TypeScript, PHP","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P48,Yes,25–34,Male,4 - 6 years,"Web Development, Mobile Development, Machine Learning/AI","Java, Python, JavaScript/TypeScript, PHP",No,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,JavaMOP,JavaMOP,MSL,MSL
+P49,Yes,25–34,Male,More than 10 years,"Web Development, Mobile Development","Java, Python, JavaScript/TypeScript",Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P50,Yes,25–34,Male,1 - 3 years,Web Development,"Python, JavaScript/TypeScript, C#",No,MSL,MSL,JavaMOP,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,JavaMOP
+P51,Yes,18–24,Male,4 - 6 years,Web Development,Dart,Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P52,Yes,45–54,Male,7 - 10 years,Web Development,"Java, Python",Yes,JavaMOP,MSL,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,MSL,JavaMOP
+P53,Yes,35–44,Male,More than 10 years,Mobile Development,"Java, JavaScript/TypeScript, Kotlin, Swift",Yes,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P54,Yes,35–44,Male,More than 10 years,Web Development,"Python, C#","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL
+P55,Yes,35–44,Male,7 - 10 years,"Web Development, Mobile Development","Java, Python, JavaScript/TypeScript",No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P56,Yes,45–54,Male,More than 10 years,"Web Development, Data Science/Analytics, Machine Learning/AI","Java, Python",No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P57,Yes,35–44,Male,1 - 3 years,Web Development,"Python, JavaScript/TypeScript",Yes,JavaMOP,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,MSL,MSL,JavaMOP
+P58,Yes,25–34,Male,More than 10 years,"Web Development, DevOps/Cloud Computing","Java, Kotlin, Go","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,JavaMOP,MSL,MSL
+P59,Yes,35–44,Female,7 - 10 years,"Web Development, Data Science/Analytics",Java,"I've heard about it, but I've never used it.",MSL,MSL,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL
+P60,Yes,25–34,Male,4 - 6 years,Web Development,"Python, JavaScript/TypeScript, C/C++, Go",Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,JavaMOP
+P61,Yes,35–44,Male,7 - 10 years,Web Development,Java,Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,JavaMOP,MSL,MSL
+P62,Yes,55–64,Male,More than 10 years,"Web Development, Data Science/Analytics","Java, Python, JavaScript/TypeScript, Cobol, Natural, Delphi",No,MSL,MSL,JavaMOP,JavaMOP,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL
+P63,Yes,35–44,Female,More than 10 years,"Web Development, Data Science/Analytics","Java, Python, JavaScript/TypeScript","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P64,Yes,35–44,Female,More than 10 years,"Web Development, Mobile Development","Java, Python",Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P65,Yes,25–34,Male,Less than 1 year,Web Development,"Python, C#",Yes,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL
+P66,Yes,45–54,Male,More than 10 years,"Web Development, Data Science/Analytics","JavaScript/TypeScript, C#",No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P67,Yes,55–64,Male,More than 10 years,"Web Development, Mobile Development, Atualmente com foco maior na gestão de projetos e equipes de desenvolvimento de SW","Java, JavaScript/TypeScript",Yes,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P68,Yes,35–44,Male,More than 10 years,"Web Development, Data Science/Analytics",Java,Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P69,Yes,25–34,Male,4 - 6 years,Web Development,C#,No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P70,Yes,35–44,Male,Less than 1 year,Mobile Development,Java,Yes,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,MSL
+P71,Yes,35–44,Male,More than 10 years,Web Development,Java,Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,JavaMOP,MSL
+P72,Yes,25–34,Male,7 - 10 years,"Data Science/Analytics, DevOps/Cloud Computing, Machine Learning/AI",Python,No,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP
+P73,Yes,35–44,Male,More than 10 years,"Web Development, Mobile Development","Java, PHP, Kotlin, Swift, Go",No,MSL,JavaMOP,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P74,Yes,35–44,Male,More than 10 years,"Web Development, Data Science/Analytics, DevOps/Cloud Computing, Machine Learning/AI","Java, Python, JavaScript/TypeScript, Dart",Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P75,Yes,45–54,Male,7 - 10 years,Web Development,"Java, PHP, SQL, PL SQL, Mysql, ",Yes,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,JavaMOP,JavaMOP,MSL,JavaMOP
+P76,Yes,25–34,Male,4 - 6 years,Web Development,Java,No,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL
+P77,Yes,25–34,Male,More than 10 years,Backend,Java,No,MSL,MSL,MSL,MSL,MSL,JavaMOP,JavaMOP,MSL,JavaMOP,MSL,MSL
+P78,Yes,25–34,Female,7 - 10 years,Data Science/Analytics,Python,"I've heard about it, but I've never used it.",MSL,MSL,JavaMOP,JavaMOP,MSL,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,MSL
+P79,Yes,25–34,Male,7 - 10 years,Web Development,"Java, JavaScript/TypeScript, Go",Yes,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P80,Yes,45–54,Male,More than 10 years,Data Science/Analytics,"Java, JavaScript/TypeScript, C#, VB6",No,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,MSL,MSL,MSL,MSL
+P81,Yes,35–44,Male,1 - 3 years,"Web Development, Data Science/Analytics","Java, Python, JavaScript/TypeScript",Yes,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP,MSL,JavaMOP,JavaMOP,MSL,MSL
+P82,Yes,18–24,Male,Less than 1 year,Web Development,"Java, JavaScript/TypeScript",No,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P83,Yes,35–44,Male,More than 10 years,Machine Learning/AI,Python,Yes,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,JavaMOP
+P84,Yes,25–34,Male,4 - 6 years,"Web Development, Mobile Development","Java, Python, JavaScript/TypeScript","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL
+P85,Yes,25–34,Male,1 - 3 years,Database,Python,"I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,JavaMOP,MSL,MSL,MSL
+P86,Yes,35–44,Male,4 - 6 years,SDET,Python,"I've heard about it, but I've never used it.",MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP
+P87,Yes,35–44,Male,7 - 10 years,"Web Development, Mobile Development, Data Science/Analytics","Python, JavaScript/TypeScript",Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P88,Yes,45–54,Male,1 - 3 years,Software Support,Java,"I've heard about it, but I've never used it.",MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,JavaMOP
+P89,Yes,35–44,Male,7 - 10 years,"Embedded Systems, DevOps/Cloud Computing, Cybersecurity","Python, C/C++","I've heard about it, but I've never used it.",MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL
+P90,Yes,35–44,Male,1 - 3 years,"Embedded Systems, DevOps/Cloud Computing, Cybersecurity","Python, C/C++","I've heard about it, but I've never used it.",MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,JavaMOP
+P91,Yes,35–44,Female,1 - 3 years,"Data Science/Analytics, Salesforce Platform CRM","Apex, SOQL, HTML, JS",No,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,MSL,MSL
+P92,Yes,18–24,Non-binary,Less than 1 year,"Web Development, Mobile Development","Java, JavaScript/TypeScript, PHP, Dart","I've heard about it, but I've never used it.",MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,JavaMOP,JavaMOP,MSL
+P93,Yes,18–24,Prefer not to say,1 - 3 years,Web Development,Java,No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P94,Yes,35–44,Male,7 - 10 years,Web Development,Java,No,MSL,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P95,Yes,45–54,Female,4 - 6 years,"Mobile Development, Data Science/Analytics",Python,No,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,JavaMOP,MSL,MSL
+P96,Yes,25–34,Male,4 - 6 years,"Mobile Development, Data Science/Analytics",Python,Yes,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,JavaMOP,JavaMOP,JavaMOP,JavaMOP,JavaMOP
+P97,Yes,35–44,Male,7 - 10 years,"Mobile Development, Data Science/Analytics, Machine Learning/AI",Python,Yes,JavaMOP,JavaMOP,JavaMOP,MSL,MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,JavaMOP
+P98,Yes,35–44,Male,More than 10 years,Software Testing,Python,"I've heard about it, but I've never used it.",MSL,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,MSL
+P99,Yes,35–44,Male,7 - 10 years,"Mobile Development, Machine Learning/AI",Python,Yes,MSL,MSL,MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL
+P100,Yes,25–34,Male,Less than 1 year,"Web Development, Data Science/Analytics, Machine Learning/AI, Cybersecurity","Java, Python, JavaScript/TypeScript","I've heard about it, but I've never used it.",MSL,MSL,MSL,MSL,MSL,JavaMOP,MSL,MSL,MSL,MSL,MSL
+P101,Yes,18–24,Male,4 - 6 years,Web Development,"Python, JavaScript/TypeScript",No,JavaMOP,MSL,MSL,JavaMOP,JavaMOP,MSL,MSL,MSL,MSL,JavaMOP,MSL
+P102,Yes,45–54,Female,More than 10 years,Web Development,"Java, Python, JavaScript/TypeScript, C/C++","I've heard about it, but I've never used it.",MSL,MSL,MSL,JavaMOP,MSL,JavaMOP,MSL,MSL,JavaMOP,MSL,MSL
