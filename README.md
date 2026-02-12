@@ -22,7 +22,6 @@ Under preparation / submission
 - **Leonardo Lima**
 - **Leopoldo Teixeira**
 - **Breno Miranda**
-- **Marcelo D’Amorim**
 
 ---
 
