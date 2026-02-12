@@ -9,11 +9,10 @@ The study analyzes developer perceptions across multiple dimensions, including *
 ## 📄 Associated Paper
 
 **Title:**  
-*Understanding Developer Preferences in Specifications Runtime Verification*
+*Understanding Developer Preferences in Runtime Verification Specifications*
 
 **Status:**  
 Under preparation / submission  
-
 
 ---
 
@@ -30,7 +29,7 @@ Under preparation / submission
 This study addresses the following research questions:
 
 - **RQ1** – How do developers perceive the *intuitiveness and understandability* of runtime specifications written using JavaMOP and SIESTA?
-- **RQ2** – How do developers perceive the *faster and more direct* writing of runtime specifications using JavaMOP and SIESTA across different experience levels and technical domains?
+- **RQ2** – How do developers perceive the *writing efficiency* of runtime specifications using JavaMOP and SIESTA across different experience levels and technical domains?
 - **RQ3** – How does the frequency of selecting JavaMOP or SIESTA as the *more rigorous* option vary across specification dimensions and developer language backgrounds?
 - **RQ4** – How does *syntactic simplicity* influence developer preference between JavaMOP and SIESTA?
 
@@ -57,23 +56,20 @@ This study addresses the following research questions:
 
 ## 📁 Repository Structure
 
+```
 survey-siesta-javamop/
-│
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
-│
 ├── data/
 │   ├── raw/
-│   │   ├── survey_responses.csv
-│   │   └── ...
-│   ├── processed/
-│   │   ├── rq1_processed.csv
-│   │   ├── rq2_processed.csv
-│   │   ├── rq3_processed.csv
-│   │   ├── rq4_processed.csv
-│   │   └── halstead_metrics.csv
-│
+│   │   └── survey_responses.csv
+│   └── processed/
+│       ├── rq1_processed.csv
+│       ├── rq2_processed.csv
+│       ├── rq3_processed.csv
+│       ├── rq4_processed.csv
+│       └── halstead_metrics.csv
 ├── scripts/
 │   ├── rq1_analysis.py
 │   ├── rq2_analysis.py
@@ -81,32 +77,14 @@ survey-siesta-javamop/
 │   ├── rq4_analysis.py
 │   ├── halstead_analysis.py
 │   └── utils.py
-│
 ├── results/
 │   ├── rq1/
-│   │   ├── figures/
-│   │   │   ├── rq1_overall.png
-│   │   │   └── rq1_heatmap.png
-│   │   └── tables/
-│   │       └── rq1_stats.csv
-│   │
 │   ├── rq2/
-│   │   ├── figures/
-│   │   └── tables/
-│   │
 │   ├── rq3/
-│   │   ├── figures/
-│   │   └── tables/
-│   │
 │   ├── rq4/
-│   │   ├── figures/
-│   │   └── tables/
-│   │
 │   └── objective-metrics/
-│       ├── figures/
-│       └── tables/
-│
 └── paper-material/
     ├── scenarios.pdf
     ├── questionnaire.pdf
     └── statistical-tests-description.md
+```
