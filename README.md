@@ -13,7 +13,7 @@ The study analyzes developer perceptions across multiple dimensions, including *
 
 **Status:**  
 Under preparation / submission  
-*(This repository is currently private and will be made public upon acceptance or during the camera-ready phase.)*
+
 
 ---
 
@@ -57,31 +57,56 @@ This study addresses the following research questions:
 
 ## 📁 Repository Structure
 
-```text
 survey-siesta-javamop/
 │
 ├── README.md
-├── paper/
-│   ├── main.pdf
-│   └── figures/
+├── LICENSE
+├── CITATION.cff
+│
 ├── data/
 │   ├── raw/
-│   ├── cleaned/
-│   └── metadata/
+│   │   ├── survey_responses.csv
+│   │   └── ...
+│   ├── processed/
+│   │   ├── rq1_processed.csv
+│   │   ├── rq2_processed.csv
+│   │   ├── rq3_processed.csv
+│   │   ├── rq4_processed.csv
+│   │   └── halstead_metrics.csv
+│
 ├── scripts/
-│   ├── rq1/
-│   ├── rq2/
-│   ├── rq3/
-│   ├── rq4/
-│   └── utils/
+│   ├── rq1_analysis.py
+│   ├── rq2_analysis.py
+│   ├── rq3_analysis.py
+│   ├── rq4_analysis.py
+│   ├── halstead_analysis.py
+│   └── utils.py
+│
 ├── results/
-│   ├── figures/
-│   ├── tables/
-│   └── latex_vars/
-├── questionnaire/
-│   ├── survey_instrument.pdf
-│   └── scenarios/
-├── ethics/
-│   └── consent_statement.txt
-├── LICENSE
-└── CITATION.cff
+│   ├── rq1/
+│   │   ├── figures/
+│   │   │   ├── rq1_overall.png
+│   │   │   └── rq1_heatmap.png
+│   │   └── tables/
+│   │       └── rq1_stats.csv
+│   │
+│   ├── rq2/
+│   │   ├── figures/
+│   │   └── tables/
+│   │
+│   ├── rq3/
+│   │   ├── figures/
+│   │   └── tables/
+│   │
+│   ├── rq4/
+│   │   ├── figures/
+│   │   └── tables/
+│   │
+│   └── objective-metrics/
+│       ├── figures/
+│       └── tables/
+│
+└── paper-material/
+    ├── scenarios.pdf
+    ├── questionnaire.pdf
+    └── statistical-tests-description.md
