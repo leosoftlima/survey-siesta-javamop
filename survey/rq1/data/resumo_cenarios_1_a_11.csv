@@ -1,0 +1,45 @@
+Scenario,Question,JavaMOP,MSL
+Scenario 1,Is more intuitive and understandable,21,81
+Scenario 1,Allows for faster and more direct specification writing for the proposed scenario,27,75
+Scenario 1,Requires greater detail and rigor when writing specifications,57,45
+Scenario 1,Offers simpler syntax,14,88
+Scenario 2,Is more intuitive and understandable,19,83
+Scenario 2,Allows for faster and more direct specification writing for the proposed scenario,18,84
+Scenario 2,Requires greater detail and rigor when writing specifications,68,34
+Scenario 2,Offers simpler syntax,11,91
+Scenario 3,Is more intuitive and understandable,25,77
+Scenario 3,Allows for faster and more direct specification writing for the proposed scenario,27,75
+Scenario 3,Requires greater detail and rigor when writing specifications,66,36
+Scenario 3,Offers simpler syntax,18,84
+Scenario 4,Is more intuitive and understandable,40,62
+Scenario 4,Allows for faster and more direct specification writing for the proposed scenario,41,61
+Scenario 4,Requires greater detail and rigor when writing specifications,59,43
+Scenario 4,Offers simpler syntax,41,61
+Scenario 5,Is more intuitive and understandable,28,74
+Scenario 5,Allows for faster and more direct specification writing for the proposed scenario,25,77
+Scenario 5,Requires greater detail and rigor when writing specifications,65,37
+Scenario 5,Offers simpler syntax,13,89
+Scenario 6,Is more intuitive and understandable,36,66
+Scenario 6,Allows for faster and more direct specification writing for the proposed scenario,41,61
+Scenario 6,Requires greater detail and rigor when writing specifications,44,58
+Scenario 6,Offers simpler syntax,35,67
+Scenario 7,Is more intuitive and understandable,27,75
+Scenario 7,Allows for faster and more direct specification writing for the proposed scenario,26,76
+Scenario 7,Requires greater detail and rigor when writing specifications,66,36
+Scenario 7,Offers simpler syntax,15,87
+Scenario 8,Is more intuitive and understandable,24,78
+Scenario 8,Allows for faster and more direct specification writing for the proposed scenario,29,73
+Scenario 8,Requires greater detail and rigor when writing specifications,62,40
+Scenario 8,Offers simpler syntax,26,76
+Scenario 9,Is more intuitive and understandable,51,51
+Scenario 9,Allows for faster and more direct specification writing for the proposed scenario,50,52
+Scenario 9,Requires greater detail and rigor when writing specifications,43,59
+Scenario 9,Offers simpler syntax,54,48
+Scenario 10,Is more intuitive and understandable,26,76
+Scenario 10,Allows for faster and more direct specification writing for the proposed scenario,21,81
+Scenario 10,Requires greater detail and rigor when writing specifications,68,34
+Scenario 10,Offers simpler syntax,16,86
+Scenario 11,Is more intuitive and understandable,23,79
+Scenario 11,Allows for faster and more direct specification writing for the proposed scenario,24,78
+Scenario 11,Requires greater detail and rigor when writing specifications,67,35
+Scenario 11,Offers simpler syntax,17,85

@@ -7,7 +7,7 @@ import seaborn as sns
 # =========================
 # CONFIGURAÇÃO
 # =========================
-csv_path = r"C:\Users\leona\Downloads\RQ1-20251201T184857Z-1-001\RQ1\respostas_rq1intuitiveAgeNew.csv"
+csv_path = r"../rq1/data/respostas_rq1intuitive.csv"
 
 OUT_DIR = "out_rq1"
 VARS_DIR = os.path.join(OUT_DIR, "vars")

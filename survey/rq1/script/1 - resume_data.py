@@ -35,7 +35,7 @@ def get_excluded_indices(df):
 # === Processamento principal ===
 
 # Caminho do arquivo CSV
-csv_path = r"C:\Users\leona\Downloads\expermentSurvey\respostas.csv"
+csv_path = r"../rq1/data/respostas.csv"
 df = pd.read_csv(csv_path)
 
 replace_experience(df)
@@ -99,7 +99,7 @@ for lang in ['JavaMOP', 'MSL']:
 final_df = final_df[['Scenario', 'Question', 'JavaMOP', 'MSL']]
 
 # Caminho de saída
-output_path = r"C:\Users\leona\Downloads\expermentSurvey\resumo_cenarios_1_a_11_new.csv"
+output_path = r"../rq1/data/resumo_cenarios_1_a_11_newLeo.csv"
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
 try:

@@ -101,8 +101,8 @@ def plot_experience_chart(df_votes):
     plt.show()
 
 # --- Execução final: Edite os caminhos abaixo --- #
-csv_path = r"C:\Users\leona\Downloads\RQ1-20251201T184857Z-1-001\RQ1\respostas_rq1intuitive.csv"
-output_path = r"C:\Users\leona\Downloads\RQ1-20251201T184857Z-1-001\RQ1\experience_macros.tex"
+csv_path = r"../rq1/data/respostas_rq1intuitive.csv"
+output_path = r"../rq1/data/experience_macros.tex"
 
 df_exp, exp_col = load_experience_data(csv_path)
 votes_df = count_votes_by_experience(df_exp, exp_col)

@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # === Caminho do CSV ===
-resumo_path = r"C:\Users\leona\Downloads\RQ1-20251201T184857Z-1-001\RQ1\resumo_cenarios_1_a_11_new.csv"
+resumo_path = r"../rq1/data/resumo_cenarios_1_a_11.csv"
 resumo_df = pd.read_csv(resumo_path)
 
 # === Filtrar apenas a pergunta de intuitividade ===
