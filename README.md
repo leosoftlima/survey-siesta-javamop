@@ -134,11 +134,14 @@ survey/
 ├── survey_metrics_macros.tex
 │
 ├── RQ1/
-│   ├── respostas_rq1intuitiveAgeNew.csv
-│   ├── Section 4 - RQ1 - binominal test.py
-│   ├── Section 4 - RQ1 - Chisquared test.py
+│   ├── data/
+│   │   └── Processed survey responses used to analyze intuitiveness and understandability perceptions across behavioral scenarios and professional experience levels
+│   │
 │   ├── images/
+│   │   └── Bar charts, heatmaps, and visualizations generated for the intuitiveness and understandability analysis
+│   │
 │   └── scripts/
+│       └── Scripts for data extraction, binomial tests, Chi-squared tests, heatmap generation, and visualization pipelines related to RQ1
 │
 ├── RQ2/
 │   ├── data/
