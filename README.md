@@ -147,10 +147,14 @@ survey/
 │   └── images/
 │
 ├── RQ3/
-│   ├── respostas_RQ3_detailAndRigorNew.csv
-│   ├── Section 4 variaveis_RQ3_binominal.py
-│   ├── Section 4 Grafic_RQ3_radar.py
-│   └── radar_languages.png
+│   ├── data/
+│   │   └── Processed survey responses used to analyze perceived rigor and compare it with intuitiveness and faster/direct writing dimensions
+│   │
+│   ├── images/
+│   │   └── Radar charts generated for the rigor analysis across specification dimensions and developer language backgrounds
+│   │
+│   └── scripts/
+│       └── Scripts for extracting RQ3 data, generating radar charts, and computing binomial test variables
 │
 ├── RQ4/
 │   ├── data/
