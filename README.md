@@ -153,13 +153,30 @@ survey/
 │   └── radar_languages.png
 │
 ├── RQ4/
-│   ├── respostas_RQ4_SintaxeNew.csv
-│   ├── Section 4 - Grafic_RQ4_linguagens.py
-│   ├── Section 4 - metrics_code_RQ4.py
-│   ├── mop11/
-│   ├── code11/
-│   └── ck_metrics/
+│   ├── data/
+│   │   ├── respostas.csv
+│   │   ├── respostas_RQ4_Sintaxe.csv
+│   │   ├── halstead_summaryMOP.csv
+│   │   ├── halstead_summarySIESTA.csv
+│   │   ├── logOperationsMOP.csv
+│   │   └── logOperationsSIESTA.csv
+│   │
+│   ├── imagens/
+│   │   ├── boxenplot_syntax_percent.png
+│   │   └── syntax_preference_by_approach_langbars.png
+│   │
+│   ├── javamop11/
+│   │   └── JavaMOP specifications used in the 11 scenarios
+│   │
+│   ├── siesta11/
+│   │   └── SIESTA specifications used in the 11 scenarios
+│   │
+│   └── scripts/
+│       ├── Section 4 - extrair_data_RQ4.py
+│       ├── Section 4 - Grafic_RQ4_boxenplot.py
+│       ├── Section 4 - Grafic_RQ4_linguagens.py
+│       ├── Section 4 - metrics_code_RQ4_Halstead Effort.py
+│       ├── Section 4 - metrics_code_RQ4_Halstead_JAVAMOP.py
+│       └── Section 4 - metrics_code_RQ4_Halstead_SIESTA.py
 │
-├── code/
-│   └── Java specification examples
 └── README.md
