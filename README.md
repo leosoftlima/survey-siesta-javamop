@@ -154,29 +154,18 @@ survey/
 │
 ├── RQ4/
 │   ├── data/
-│   │   ├── respostas.csv
-│   │   ├── respostas_RQ4_Sintaxe.csv
-│   │   ├── halstead_summaryMOP.csv
-│   │   ├── halstead_summarySIESTA.csv
-│   │   ├── logOperationsMOP.csv
-│   │   └── logOperationsSIESTA.csv
+│   │   └── Processed survey responses and Halstead metric outputs
 │   │
-│   ├── imagens/
-│   │   ├── boxenplot_syntax_percent.png
-│   │   └── syntax_preference_by_approach_langbars.png
+│   ├── images/
+│   │   └── Figures generated for the syntactic simplicity analysis
 │   │
 │   ├── javamop11/
-│   │   └── JavaMOP specifications used in the 11 scenarios
+│   │   └── JavaMOP specifications used in the 11 evaluated scenarios
 │   │
 │   ├── siesta11/
-│   │   └── SIESTA specifications used in the 11 scenarios
+│   │   └── SIESTA specifications used in the 11 evaluated scenarios
 │   │
 │   └── scripts/
-│       ├── Section 4 - extrair_data_RQ4.py
-│       ├── Section 4 - Grafic_RQ4_boxenplot.py
-│       ├── Section 4 - Grafic_RQ4_linguagens.py
-│       ├── Section 4 - metrics_code_RQ4_Halstead Effort.py
-│       ├── Section 4 - metrics_code_RQ4_Halstead_JAVAMOP.py
-│       └── Section 4 - metrics_code_RQ4_Halstead_SIESTA.py
+│       └── Scripts for data extraction, statistical analysis, Halstead metrics, and figure generation
 │
 └── README.md
