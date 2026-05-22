@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Carregar o CSV
-df = pd.read_csv(r"C:\Users\leona\Downloads\expermentSurvey\RQ2\respostas_RQ2_FasterNew.csv")
+df = pd.read_csv(r"../rq2/data/respostas_RQ2_Faster.csv")
 # Normalizar nomes das colunas
 df.columns = df.columns.str.replace('\n', ' ', regex=False).str.replace(r'\s+', ' ', regex=True).str.strip()
 

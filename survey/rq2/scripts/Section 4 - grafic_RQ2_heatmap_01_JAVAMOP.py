@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Caminho para o CSV fornecido
-csv_path = r"C:\Users\leona\Downloads\RQ2-20251210T142707Z-1-001\RQ2\respostas_RQ2_FasterNew.csv"
+csv_path = r"../rq2/data/respostas_RQ2_Faster.csv"
 df = pd.read_csv(csv_path)
 
 # Remover a etapa de expandir domínios técnicos

@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Caminho de entrada e saída
-csv_path = r"C:\Users\leona\Downloads\expermentSurvey\RQ2\respostas.csv"
-output_path = r"C:\Users\leona\Downloads\expermentSurvey\RQ2\respostas_RQ2_FasterNew.csv"
+csv_path = r"../rq2/data/respostas.csv"
+output_path = r"../rq2/data/respostas_RQ2_FasterLeo.csv"
 
 # Carrega o CSV original
 df = pd.read_csv(csv_path)
