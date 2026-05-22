@@ -129,9 +129,15 @@ These metrics were used to investigate whether developer preferences correlate w
 ```text
 survey/
 │
-├── resumo_cenarios_1_a_11.csv
-├── respostas_dadostratados.csv
-├── survey_metrics_macros.tex
+├── 3.2/
+│   ├── data/
+│   │   └── Survey responses and LaTeX macro files used in the participant demographics analysis
+│   │
+│   ├── images/
+│   │   └── Figures generated for age, gender, experience, expertise, programming languages, and runtime verification familiarity
+│   │
+│   └── scripts/
+│       └── Scripts for extracting demographic data, generating figures, and producing LaTeX macros for Section 3.2
 │
 ├── RQ1/
 │   ├── data/
