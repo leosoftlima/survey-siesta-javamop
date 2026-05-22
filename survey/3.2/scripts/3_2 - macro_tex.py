@@ -136,7 +136,7 @@ def get_latex_commands(demo_stats):
 
 # --- PROCESSAMENTO PRINCIPAL --- #
 
-csv_path = r"C:\Users\leona\Downloads\expermentSurvey\respostas.csv"
+csv_path = r"../3.2/data/respostas.csv"
 df = pd.read_csv(csv_path)
 
 replace_experience(df)
@@ -182,7 +182,7 @@ else:
 
 # Exportar LaTeX
 latex_output = get_latex_commands(demo_stats)
-output_path = r"C:\Users\leona\Downloads\expermentSurvey\3.2\survey_metrics_macros_new1.tex"
+output_path = r"../3.2/data/survey_metrics_macros.tex"
 with open(output_path, "w") as f:
     f.write(latex_output.strip())
 
