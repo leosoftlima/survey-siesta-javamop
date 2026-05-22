@@ -39,9 +39,9 @@ def gerar_comandos_latex_tradeoff(consolidated):
     return comandos
 
 # === Leitura dos dados
-rq1_data = pd.read_csv(r"C:\Users\leona\Downloads\expermentSurvey\RQ3\respostas_rq1intuitiveAgeNew.csv")
-rq2_data = pd.read_csv(r"C:\Users\leona\Downloads\expermentSurvey\RQ3\respostas_RQ2_FasterNew.csv")
-rq3_data = pd.read_csv(r"C:\Users\leona\Downloads\expermentSurvey\RQ3\respostas_RQ3_detailAndRigorNew.csv")
+rq1_data = pd.read_csv(r"../rq3/data/respostas_rq1intuitiveAge.csv")
+rq2_data = pd.read_csv(r"../rq3/data/respostas_RQ2_Faster.csv")
+rq3_data = pd.read_csv(r"../rq3/data/respostas_RQ3_detailAndRigor.csv")
 
 # === Processamento dos dados
 rq1_responses = rq1_data.filter(regex=r'\d+\.1_intuitive').copy()

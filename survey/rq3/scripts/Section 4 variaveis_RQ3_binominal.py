@@ -2,7 +2,7 @@ import pandas as pd
 from scipy.stats import binomtest
 
 # === Caminho local do CSV de RQ3 (rigor) ===
-csv_path = r"C:\Users\leona\Downloads\expermentSurvey\RQ3\respostas_RQ3_detailAndRigorNew.csv"
+csv_path = r"../rq3/data/respostas_RQ3_detailAndRigor.csv"
 
 # === 1) Ler dados ===
 rq3 = pd.read_csv(csv_path)
