@@ -153,13 +153,19 @@ survey/
 │   └── radar_languages.png
 │
 ├── RQ4/
-│   ├── respostas_RQ4_SintaxeNew.csv
-│   ├── Section 4 - Grafic_RQ4_linguagens.py
-│   ├── Section 4 - metrics_code_RQ4.py
-│   ├── mop11/
-│   ├── code11/
-│   └── ck_metrics/
+│   ├── data/
+│   │   └── Processed survey responses and Halstead metric outputs
+│   │
+│   ├── images/
+│   │   └── Figures generated for the syntactic simplicity analysis
+│   │
+│   ├── javamop11/
+│   │   └── JavaMOP specifications used in the 11 evaluated scenarios
+│   │
+│   ├── siesta11/
+│   │   └── SIESTA specifications used in the 11 evaluated scenarios
+│   │
+│   └── scripts/
+│       └── Scripts for data extraction, statistical analysis, Halstead metrics, and figure generation
 │
-├── code/
-│   └── Java specification examples
 └── README.md
