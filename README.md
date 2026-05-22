@@ -141,10 +141,14 @@ survey/
 │   └── scripts/
 │
 ├── RQ2/
-│   ├── respostas_RQ2_FasterNew.csv
-│   ├── Section 4 - extrair_data_RQ2.py
-│   ├── Section 4 - grafic_RQ2_heatmap_01_MSL.py
-│   └── images/
+│   ├── data/
+│   │   └── Processed survey responses used to analyze perceptions of faster and more direct runtime specification writing
+│   │
+│   ├── images/
+│   │   └── Heatmaps and visualizations generated for experience-level and technical-domain analyses
+│   │
+│   └── scripts/
+│       └── Scripts for data extraction, heatmap generation, statistical analysis, and visualization pipelines related to RQ2
 │
 ├── RQ3/
 │   ├── data/
