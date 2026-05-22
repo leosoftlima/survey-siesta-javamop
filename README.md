@@ -1,8 +1,15 @@
-# Survey: Developer Perceptions of JavaMOP and SIESTA
+# Replication Package — Understanding Developer Preferences in Runtime Verification Specifications
 
-This repository contains the **replication package** of a survey-based empirical study investigating how professional software developers perceive two runtime verification specification approaches: **JavaMOP** and **SIESTA**.
+This repository contains the full replication package, datasets, statistical analyses, scripts, and visualization artifacts used in the empirical study investigating how professional software developers perceive two runtime verification specification approaches: JavaMOP and SIESTA.
 
-The study analyzes developer perceptions across multiple dimensions, including **intuitiveness**, **perceived efficiency** (faster and more direct), **rigor**, and **syntactic simplicity**, based on controlled comparative behavioral scenarios.
+The study analyzes developer perceptions across multiple dimensions, including intuitiveness, understandability, writing faster and more direct, rigor, and syntactic simplicity, using controlled comparative behavioral scenarios.
+
+---
+
+![Status](https://img.shields.io/badge/status-under_review-orange)
+![Language](https://img.shields.io/badge/python-3.10-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Replication Package](https://img.shields.io/badge/artifact-available-brightgreen)
 
 ---
 
@@ -12,15 +19,28 @@ The study analyzes developer perceptions across multiple dimensions, including *
 *Understanding Developer Preferences in Runtime Verification Specifications*
 
 **Status:**  
-Under preparation / submission  
+Under preparation / submission
 
 ---
 
 ## 👥 Authors
 
 - **Leonardo Lima**
-- **Leopoldo Teixeira**
 - **Breno Miranda**
+- **Leopoldo Teixeira**
+
+---
+
+## 📚 Background
+
+Runtime Verification (RV) techniques allow software systems to be monitored during program execution to ensure that behavioral properties are respected.
+
+This study compares two runtime specification approaches:
+
+- **JavaMOP**: a formal runtime verification framework based on monitoring-oriented programming and declarative behavioral specifications.
+- **SIESTA**: a lightweight annotation-based specification approach designed to reduce syntactic overhead and improve accessibility for developers.
+
+The goal of this study is to better understand how developers perceive different runtime specification styles in terms of usability, clarity, writing effort, rigor, and syntactic complexity.
 
 ---
 
@@ -28,35 +48,85 @@ Under preparation / submission
 
 This study addresses the following research questions:
 
-- **RQ1** – How do developers perceive the *intuitiveness and understandability* of runtime specifications written using JavaMOP and SIESTA?
-- **RQ2** – How do developers perceive the *writing efficiency* of runtime specifications using JavaMOP and SIESTA across different experience levels and technical domains?
-- **RQ3** – How does the frequency of selecting JavaMOP or SIESTA as the *more rigorous* option vary across specification dimensions and developer language backgrounds?
-- **RQ4** – How does *syntactic simplicity* influence developer preference between JavaMOP and SIESTA?
+- **RQ1** – How do developers perceive the intuitiveness and understandability of runtime specifications written using JavaMOP and SIESTA across different professional backgrounds?
+
+- **RQ2** – How do developers perceive faster and more direct runtime specifications writing using JavaMOP and SIESTA across different experience levels and domains?
+
+- **RQ3** – How does the frequency of selecting JavaMOP or SIESTA as the more rigorous option vary across specification dimensions and developer language backgrounds?
+
+- **RQ4** – How does the syntactic simplicity of specifications influence developer preference between JavaMOP and SIESTA?
 
 ---
 
 ## 📊 Study Overview
 
-- **Participants:** Professional software developers  
-- **Method:** Online survey with comparative questions  
-- **Scenarios:** 11 behavioral runtime monitoring scenarios  
+### Participants
 
-**Experimental Design:**
+- 102 professional software developers
+
+### Method
+
+- Online survey with comparative questions
+
+### Scenarios
+
+- 11 behavioral runtime monitoring scenarios
+
+### Experimental Design
+
 - Alternatives randomized (A/B) to mitigate positional bias
-- Multiple demographic dimensions collected (experience, domain, primary programming language)
+- Multiple demographic dimensions collected:
+  - Professional experience
+  - Technical domain
+  - Primary programming language
+  - Familiarity with runtime verification tools and specification languages
 
-**Analysis Techniques:**
+### Evaluated Dimensions
+
+- Intuitiveness and understandability
+- Faster and more direct specification writing
+- Required rigor
+- Syntactic simplicity
+
+---
+
+## 🧪 Statistical Analysis
+
+The study combines descriptive and inferential statistical analyses, including:
+
 - Descriptive statistics
-- One-tailed and two-tailed binomial tests
+- One-tailed binomial tests
+- Two-tailed binomial tests
 - Chi-squared tests of independence
-- Visual analysis using bar charts, heatmaps, radar charts, and boxenplots
-- Objective syntactic complexity analysis using **Halstead metrics**
+- Visual analysis using:
+  - Bar charts
+  - Heatmaps
+  - Radar charts
+  - Boxenplots
+
+A significance level of 5% (`α = 0.05`) was adopted throughout the analyses.
+
+---
+
+## 📈 Objective Specification Complexity Analysis
+
+To complement subjective perceptions, the repository includes objective syntactic complexity measurements for all evaluated specifications.
+
+The following Halstead metrics were computed:
+
+- Length
+- Vocabulary
+- Volume
+- Difficulty
+- Effort
+
+These metrics were used to investigate whether developer preferences correlate with measurable syntactic complexity differences.
 
 ---
 
 ## 📁 Repository Structure
 
-```
+```text
 survey/
 │
 ├── resumo_cenarios_1_a_11.csv
@@ -67,7 +137,7 @@ survey/
 │   ├── respostas_rq1intuitiveAgeNew.csv
 │   ├── Section 4 - RQ1 - binominal test.py
 │   ├── Section 4 - RQ1 - Chisquared test.py
-│   ├── imagens/
+│   ├── images/
 │   └── scripts/
 │
 ├── RQ2/
@@ -91,15 +161,5 @@ survey/
 │   └── ck_metrics/
 │
 ├── code/
-│   └── (Java specification examples)
-│
-├── scripts/
-│   └── (Section 3.2 demographic scripts)
-│
-├── backup/
-│   └── (original survey backups)
-│
-└── paper/
-    └── related references
-```
-
+│   └── Java specification examples
+└── README.md
