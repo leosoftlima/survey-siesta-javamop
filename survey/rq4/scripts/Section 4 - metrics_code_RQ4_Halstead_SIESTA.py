@@ -121,8 +121,8 @@ def analyze_directory(directory, extensions=['.java']):
     return pd.DataFrame(results), pd.DataFrame(logs)
 
 if __name__ == '__main__':
-    pasta = r'C:\Users\leona\Downloads\expermentSurvey\RQ4\code11'
+    pasta = r'.survey/rq4/siesta11'
     df_result, df_log = analyze_directory(pasta)
-    df_result.to_csv(os.path.join(pasta, 'halstead_summaryMSL.csv'), index=False)
-    df_log.to_csv(os.path.join(pasta, 'logOperationsMSL.csv'), index=False)
-    print("[✓] Arquivos MSL gerados com sucesso.")
+    df_result.to_csv(os.path.join(pasta, 'halstead_summarySIESTA.csv'), index=False)
+    df_log.to_csv(os.path.join(pasta, 'logOperationsSIESTA.csv'), index=False)
+    print("[✓] Arquivos SIESTA gerados com sucesso.")

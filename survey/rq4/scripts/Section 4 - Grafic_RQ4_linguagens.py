@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # === 1. Carregar e preparar os dados ===
-file_path = r"C:\Users\leona\Downloads\expermentSurvey\RQ4\respostas_RQ4_SintaxeNew.csv"
+file_path = r"../rq4/data/respostas_RQ4_Sintaxe.csv"
 df = pd.read_csv(file_path)
 
 syntax_cols = [col for col in df.columns if col.endswith("_simpler")]
@@ -42,21 +42,31 @@ x = np.arange(len(labels))
 width = 0.6
 
 fig, ax = plt.subplots(figsize=(8, 5))
-ax.bar(x, javamop_vals, width, label='JavaMOP', color='gray')
-ax.bar(x, msl_vals, width, bottom=javamop_vals, label='MSL', color='steelblue')
+color_javamop = '#7A7A7A'   # cinza mais elegante
+color_siesta = '#4C78A8'    # azul acadêmico mais suave
 
+ax.bar(x, javamop_vals, width, label='JavaMOP', color=color_javamop)
+ax.bar(x, msl_vals, width, bottom=javamop_vals, label='SIESTA', color=color_siesta)
+
+plt.tight_layout(rect=[0, 0, 1, 0.93])
 # Adicionar rótulos com fonte maior
 for i in range(len(x)):
     ax.text(x[i], javamop_vals[i] / 2, f'{javamop_vals[i]:.2f}%', ha='center', va='center', color='white', fontsize=10)
     ax.text(x[i], javamop_vals[i] + msl_vals[i] / 2, f'{msl_vals[i]:.2f}%', ha='center', va='center', color='white', fontsize=10)
 
 ax.set_ylabel('% Participants')
-ax.set_title('Preference Distribution per Language Group (Stacked)')
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
 ax.set_ylim(0, 100)
-ax.legend()
-plt.tight_layout()
+
+ax.legend(
+    loc='upper left',
+    bbox_to_anchor=(1.02, 1.0),
+    frameon=True,
+    edgecolor='lightgray'
+)
+
+plt.tight_layout(rect=[0, 0, 0.99, 1])
 plt.show()
 
 # === 3. Gerar comandos LaTeX com precisão ===

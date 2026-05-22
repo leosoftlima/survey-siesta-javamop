@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Caminhos para os arquivos CSV
-path_msl = r"C:\Users\leona\Downloads\expermentSurvey\RQ4\code11\halstead_summaryMSL.csv"
-path_mop = r"C:\Users\leona\Downloads\expermentSurvey\RQ4\mop11\halstead_summaryMOP.csv"
+path_msl = r"..\rq4\data\halstead_summarySIESTA.csv"
+path_mop = r"..\rq4\data\halstead_summaryMOP.csv"
 
 # Leitura dos arquivos
 df_msl = pd.read_csv(path_msl)

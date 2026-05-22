@@ -129,7 +129,7 @@ def analyze_directory(directory):
     return pd.DataFrame(results), pd.DataFrame(logs)
 
 if __name__ == '__main__':
-    pasta = r'C:\Users\leona\Downloads\expermentSurvey\RQ4\mop11'
+    pasta = r'.survey/rq4/javamop11'  # path of files .mop
     df_result, df_log = analyze_directory(pasta)
     df_result.to_csv(os.path.join(pasta, 'halstead_summaryMOP.csv'), index=False)
     df_log.to_csv(os.path.join(pasta, 'logOperationsMOP.csv'), index=False)

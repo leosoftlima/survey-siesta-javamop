@@ -1,10 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
 
 # Caminho local do seu arquivo CSV
-file_path = r"C:\Users\leona\Downloads\expermentSurvey\RQ4\respostas_RQ4_SintaxeNew.csv"
+file_path = r"../rq4/data/respostas_RQ4_Sintaxe.csv"
 df = pd.read_csv(file_path)
 
 # Selecionar as colunas que terminam com "_simpler"
@@ -21,23 +20,42 @@ df_long = df.melt(
 # Extrair o número do cenário
 df_long["scenario"] = df_long["scenario"].str.extract(r"(\d+)\.4_simpler").astype(int)
 
+# Renomear MSL para SIESTA
+df_long["chosen_spec"] = df_long["chosen_spec"].replace({"MSL": "SIESTA"})
+
 # Calcular porcentagem cumulativa por cenário e linguagem
 df_long["total_in_scenario"] = df_long.groupby("scenario")["pID"].transform("count")
-df_long["percentage"] = (df_long.groupby(["scenario", "chosen_spec"]).cumcount() + 1) / df_long["total_in_scenario"] * 100
 
-# Gerar o gráfico boxenplot
+df_long["percentage"] = (
+    (df_long.groupby(["scenario", "chosen_spec"]).cumcount() + 1)
+    / df_long["total_in_scenario"]
+    * 100
+)
+
+# ---------- Gerar o gráfico boxenplot ----------
+
 plt.figure(figsize=(12, 6))
 sns.set(style="whitegrid")
+
 sns.boxenplot(
     data=df_long,
     x="percentage",
     y="scenario",
     hue="chosen_spec",
-    palette="Set2",
+    hue_order=["SIESTA", "JavaMOP"],
+    palette={
+        "SIESTA": "#1f77b4",
+        "JavaMOP": "#B8B8B8"
+    },
     orient="h",
     dodge=True
 )
-plt.xticks([0, 20, 40, 60, 80, 100], ["0", "20%", "40%", "60%", "80%", "100%"])
+
+plt.xticks(
+    [0, 20, 40, 60, 80, 100],
+    ["0", "20%", "40%", "60%", "80%", "100%"]
+)
+
 plt.xlabel("% of Participants")
 plt.ylabel("Scenario")
 plt.legend(title="Language")
@@ -48,13 +66,22 @@ plt.show()
 
 # Cenários e linguagens que você deseja exportar
 cenarios_desejados = [1, 2, 4, 5, 6, 9, 10]
-linguagens_desejadas = ["JavaMOP", "MSL"]
+linguagens_desejadas = ["JavaMOP", "SIESTA"]
 
-# Função para converter número para texto (em inglês)
+# Função para converter número para texto em inglês
 def numero_para_texto(n):
     mapa = {
-        1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six",
-        7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven"
+        1: "One",
+        2: "Two",
+        3: "Three",
+        4: "Four",
+        5: "Five",
+        6: "Six",
+        7: "Seven",
+        8: "Eight",
+        9: "Nine",
+        10: "Ten",
+        11: "Eleven"
     }
     return mapa.get(n, str(n))
 
@@ -66,9 +93,14 @@ def gerar_comandos_medias_texto(df):
     for _, row in resumo.iterrows():
         cenario = int(row["scenario"])
         linguagem = row["chosen_spec"].replace(" ", "").replace("-", "")
+
         if cenario in cenarios_desejados and linguagem in linguagens_desejadas:
             nome_cenario = numero_para_texto(cenario)
-            comandos.append(f"\\newcommand{{\\cenario{nome_cenario}{linguagem}Mean}}{{{round(row['mean'], 1)}}}")
+            media = round(row["mean"], 1)
+
+            comandos.append(
+                f"\\newcommand{{\\cenario{nome_cenario}{linguagem}Mean}}{{{media}}}"
+            )
 
     return "\n".join(sorted(comandos))
 
